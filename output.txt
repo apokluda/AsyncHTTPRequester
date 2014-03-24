@@ -1,0 +1,12 @@
+./asynchttprequest_test https://www.google.ca/
+
+Result: CURLcode 35: SSL connect error
+Fetching took 150.028 seconds
+
+./asynchttprequest_test https://www.google.ca/
+<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage"><head><meta content="/images/google_favicon_128.png" itemprop="image"><title>Google</title><script>(function(){
+window.google={kEI:"ukovU8TYNsHCqAHIhYDYCA",getEI:function(a){for(var b;a&&(!a.getAttribute||!(b=a.getAttribute("eid")));)a=a.parentNode;return b||google.kEI},https:function(){return"https:"==window.location.protocol},kEXPI:"4006,17259,4000116,4007661,4007830,4008067,4008133,4008142,4009033,4009565,4009641,4010297,4010806,4010829,4010858,4010899,4011228,4011258,4011679,4012373,4012504,40
+
+Result: CURLcode 28: Timeout was reached
+Fetching took 153.019 seconds
+

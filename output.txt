@@ -10,3 +10,43 @@ window.google={kEI:"ukovU8TYNsHCqAHIhYDYCA",getEI:function(a){for(var b;a&&(!a.g
 Result: CURLcode 28: Timeout was reached
 Fetching took 153.019 seconds
 
+* About to connect() to www.google.ca port 443 (#0)
+timer_cb: 
+opensocket :
+*   Trying 74.125.225.152...
+Opened socket 6
+sock_cb: socket=6, what=2, sockp=(nil)
+socket callback: s=6 e=0xb6a6d0 what=OUT 
+Adding data: OUT
+setsock: socket=6, act=2, fdp=0xb7de80
+watching for socket to become writable
+multi_timer_cb: timeout_ms 149980
+REMAINING: 1
+* Connected to www.google.ca (74.125.225.152) port 443 (#0)
+* successfully set certificate verify locations:
+*   CAfile: none
+  CApath: /etc/ssl/certs
+event_cb: action=2
+sock_cb: socket=6, what=1, sockp=0xb7de80
+socket callback: s=6 e=0xb6a6d0 what=IN 
+Changing action from OUT to IN
+setsock: socket=6, act=1, fdp=0xb7de80
+watching for socket to become readable
+REMAINING: 1
+event_cb: action=1
+REMAINING: 1
+* Unknown SSL protocol error in connection to www.google.ca:443 
+* Closing connection 0
+timer_cb: 
+closesocket : 6
+sock_cb: socket=6, what=4, sockp=0xb7de80
+socket callback: s=6 e=0xb6a6d0 what=REMOVE 
+
+remsock: 
+multi_timer_cb: timeout_ms -1
+timer_cb: 
+REMAINING: 0
+DONE: https://www.google.ca/ => (35) Unknown SSL protocol error in connection to www.google.ca:443 
+REMAINING: 0
+done.
+
